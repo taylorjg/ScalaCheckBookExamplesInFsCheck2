@@ -11,14 +11,11 @@ namespace ScalaCheckBookExamplesInFsCheck2.Chapter4.RunLengthEncoding
     public class Tests
     {
         [FsCheck.Xunit.Property]
-        public Property RoundTripTest()
+        public bool RoundTripTest(IEnumerable<Tuple<int, char>> r)
         {
-            return Prop.ForAll<IEnumerable<Tuple<int, char>>>(r =>
-            {
-                var original = r.ToList();
-                var actual = RLE.RunLengthEnc(RLE.RunLengthDec(original));
-                return actual.SequenceEqual(original);
-            });
+            var original = r.ToList();
+            var actual = RLE.RunLengthEnc(RLE.RunLengthDec(original));
+            return actual.SequenceEqual(original);
         }
 
         private static Gen<IEnumerable<Tuple<int, char>>> GenOutput
