@@ -56,8 +56,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter4\RunLengthEncoding\CustomArbitrary.cs" />
     <Compile Include="Chapter4\RunLengthEncoding\RunLengthEncoding.cs" />
     <Compile Include="Chapter4\RunLengthEncoding\Tests.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
