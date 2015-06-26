@@ -8,6 +8,7 @@ A while ago, I ported some of the examples from [_ScalaCheck: The Definitive Gui
 Below is a list of examples that I have converted over to FsCheck 2.0:
 
 * Chapter 4 Run Length Encoding
+* Chapter 5 Interleaving
 
 ## Links
 
