@@ -9,7 +9,7 @@ namespace ScalaCheckBookExamplesInFsCheck2.Chapter5.Interleaving
     public class Tests
     {
         [Property]
-        public Property Test(IList<int> xs, IList<int> ys)
+        public Property PropInterleave(IList<int> xs, IList<int> ys)
         {
             var res = Interleaving.Interleave(xs, ys);
             var @is = Enumerable.Range(0, Math.Min(xs.Count, ys.Count)).ToList();
