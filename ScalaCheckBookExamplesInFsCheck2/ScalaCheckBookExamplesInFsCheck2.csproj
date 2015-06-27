@@ -68,12 +68,16 @@
     <Compile Include="Chapter5\Interleaving\Interleaving.cs" />
     <Compile Include="Chapter5\Interleaving\Tests.cs" />
     <Compile Include="Chapter5\Throws.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\Add.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\Const.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\CustomArbitrary.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\Expression.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\Mul.cs" />
+    <Compile Include="Chapter6\CustomTestCaseSimplification\Tests.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Chapter6\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
