@@ -64,6 +64,7 @@
     <Compile Include="Chapter4\RunLengthEncoding\Tests.cs" />
     <Compile Include="Chapter5\ClassifyingTestStatistics.cs" />
     <Compile Include="Chapter5\CollectingTestStatistics.cs" />
+    <Compile Include="Chapter5\ConstantProperties.cs" />
     <Compile Include="Chapter5\Interleaving\Interleaving.cs" />
     <Compile Include="Chapter5\Interleaving\Tests.cs" />
     <Compile Include="Extensions.cs" />

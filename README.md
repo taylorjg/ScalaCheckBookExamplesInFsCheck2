@@ -17,7 +17,9 @@ Below is a list of examples that I have converted over to FsCheck 2.0:
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))
     * [Collecting test statistics - Collect](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/CollectingTestStatistics.cs)  
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))    
- 
+    * [Constant properties](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ConstantProperties.cs)  
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec2))
+     
 ## Links
 
 * http://booksites.artima.com/scalacheck
