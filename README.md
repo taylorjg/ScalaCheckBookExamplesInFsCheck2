@@ -7,9 +7,15 @@ A while ago, I ported some of the examples from [_ScalaCheck: The Definitive Gui
 
 Below is a list of examples that I have converted over to FsCheck 2.0:
 
-* Chapter 4 Run Length Encoding
-* Chapter 5 Interleaving
-
+* Chapter 4
+    * [Constructing optimal output - run length encoding](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter4/RunLengthEncoding)
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch04.html#sec6))    
+* Chapter 5
+    * [Labelling properties - interleaving](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/Interleaving)
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))    
+    * [Collecting test statistics - Classify](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ClassifyingTestStatistics.cs)  
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))
+ 
 ## Links
 
 * http://booksites.artima.com/scalacheck
