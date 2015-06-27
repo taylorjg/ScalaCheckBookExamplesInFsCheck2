@@ -1,4 +1,5 @@
-﻿using FsCheck.Xunit;
+﻿using FsCheck;
+using FsCheck.Xunit;
 
 namespace ScalaCheckBookExamplesInFsCheck2.Chapter6.CustomTestCaseSimplification
 {
@@ -12,13 +13,19 @@ namespace ScalaCheckBookExamplesInFsCheck2.Chapter6.CustomTestCaseSimplification
             return rexpr.Eval() == expr.Eval();
         }
 
-        [Property(Skip = "This tests introduces a deliberate error in order to see shrinking in action")]
+        [Property(Skip = "This test introduces a deliberate error in order to see shrinking in action")]
         public bool PropRewrite2(Expression expr)
         {
             var rexpr = expr.Rewrite(true);
             return rexpr.Eval() == expr.Eval();
         }
 
-        // Add another failing test that suppresses shrinking ? (to compare shrinking vs not shrinking)
+        [Property(Skip = "This test introduces a deliberate error and suppresses shrinking in order to compare it with shrinking")]
+        public bool PropRewrite3(DontShrink<Expression> dontShrinkExpr)
+        {
+            var expr = dontShrinkExpr.Item;
+            var rexpr = expr.Rewrite(true);
+            return rexpr.Eval() == expr.Eval();
+        }
     }
 }
