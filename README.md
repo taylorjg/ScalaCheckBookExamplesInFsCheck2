@@ -21,6 +21,9 @@ Below is a list of examples that I have converted over to FsCheck 2.0:
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec2))    
     * [Constant properties](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ConstantProperties.cs)  (page 61)  
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec2))
+* Chapter 6
+    * [Custom test case simplification](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter6/CustomTestCaseSimplification) (pages 82-87)  
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch06.html#sec2))
      
 ## Links
 
