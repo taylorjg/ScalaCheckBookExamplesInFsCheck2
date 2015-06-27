@@ -67,6 +67,7 @@
     <Compile Include="Chapter5\ConstantProperties.cs" />
     <Compile Include="Chapter5\Interleaving\Interleaving.cs" />
     <Compile Include="Chapter5\Interleaving\Tests.cs" />
+    <Compile Include="Chapter5\Throws.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

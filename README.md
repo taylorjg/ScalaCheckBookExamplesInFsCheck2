@@ -8,16 +8,18 @@ A while ago, I ported some of the examples from [_ScalaCheck: The Definitive Gui
 Below is a list of examples that I have converted over to FsCheck 2.0:
 
 * Chapter 4
-    * [Constructing optimal output - run length encoding](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter4/RunLengthEncoding)
+    * [Constructing optimal output - run length encoding](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter4/RunLengthEncoding) (pages 45-46)
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch04.html#sec6))    
 * Chapter 5
-    * [Labelling properties - interleaving](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/Interleaving)
+    * [Labelling properties - interleaving](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/Interleaving) (pages 51-52)
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))    
-    * [Collecting test statistics - Classify](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ClassifyingTestStatistics.cs)  
+    * [Collecting test statistics - Classify](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ClassifyingTestStatistics.cs) (page 56)  
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))
-    * [Collecting test statistics - Collect](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/CollectingTestStatistics.cs)  
+    * [Collecting test statistics - Collect](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/CollectingTestStatistics.cs) (page 57)  
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec1))    
-    * [Constant properties](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ConstantProperties.cs)  
+    * [Prop.throws](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/Throws.cs) (page 59)
+        * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec2))    
+    * [Constant properties](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/blob/master/ScalaCheckBookExamplesInFsCheck2/Chapter5/ConstantProperties.cs)  (page 61)  
         * (_original example code_ can be found within [here](http://booksites.artima.com/scalacheck/examples/html/ch05.html#sec2))
      
 ## Links
