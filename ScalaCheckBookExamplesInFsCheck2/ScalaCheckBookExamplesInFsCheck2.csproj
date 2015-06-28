@@ -74,13 +74,16 @@
     <Compile Include="Chapter6\CustomTestCaseSimplification\Expression.cs" />
     <Compile Include="Chapter6\CustomTestCaseSimplification\Mul.cs" />
     <Compile Include="Chapter6\CustomTestCaseSimplification\Tests.cs" />
+    <Compile Include="Chapter6\HigherOrderGenerators.cs" />
     <Compile Include="Chapter6\RecursiveGenerators\CustomGenerator.cs" />
     <Compile Include="Chapter6\RecursiveGenerators\Leaf.cs" />
     <Compile Include="Chapter6\RecursiveGenerators\Node.cs" />
     <Compile Include="Chapter6\RecursiveGenerators\Tests.cs" />
     <Compile Include="Chapter6\RecursiveGenerators\Tree.cs" />
-    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\EnumerableExtensions.cs" />
+    <Compile Include="Utils\Formatters.cs" />
+    <Compile Include="Utils\LocalGenExtensions.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

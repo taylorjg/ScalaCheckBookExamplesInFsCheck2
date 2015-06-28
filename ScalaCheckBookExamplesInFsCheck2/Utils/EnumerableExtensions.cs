@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace ScalaCheckBookExamplesInFsCheck2
+namespace ScalaCheckBookExamplesInFsCheck2.Utils
 {
     public static class EnumerableExtensions
     {

@@ -1,19 +1,14 @@
-﻿using System;
-using FsCheck;
-using FsCheck.Xunit;
+﻿using FsCheck.Xunit;
+using ScalaCheckBookExamplesInFsCheck2.Utils;
 
 namespace ScalaCheckBookExamplesInFsCheck2.Chapter6.RecursiveGenerators
 {
     public class Tests
     {
         [Property]
-        public void Sample()
+        public void IntTreeSample()
         {
-            var samples = Gen.Sample(10, 10, CustomGenerator.GenIntTree);
-            foreach (var sample in samples)
-            {
-                Console.WriteLine(sample);
-            }
+            CustomGenerator.GenIntTree.DumpSamples();
         }
     }
 }
