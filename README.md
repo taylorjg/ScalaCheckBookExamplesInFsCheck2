@@ -1,11 +1,11 @@
 
 ## Description
 
-A while ago, I ported some of the examples from [_ScalaCheck: The Definitive Guide_](http://www.artima.com/shop/scalacheck) to C# / FsCheck. This repo is a re-working of [that code](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck) to use the new C# API in FsCheck 2.0.
+A while ago, I ported some of the examples from [_ScalaCheck: The Definitive Guide_](http://www.artima.com/shop/scalacheck) to C# / FsCheck. This repo is a re-working of [that code](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck) to use the new C# API in FsCheck 2.
 
 ## Progress
 
-Below is a list of examples that I have converted over to FsCheck 2.0:
+Below is a list of examples that I have converted over to FsCheck 2:
 
 * Chapter 4
     * [Constructing optimal output - run length encoding](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck2/tree/master/ScalaCheckBookExamplesInFsCheck2/Chapter4/RunLengthEncoding) (pages 45-46)
@@ -35,4 +35,5 @@ Below is a list of examples that I have converted over to FsCheck 2.0:
 * http://booksites.artima.com/scalacheck/ScalaCheckExamples.zip
 * https://github.com/fsharp/FsCheck
 * https://fsharp.github.io/FsCheck/
-* https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck
+* [Port of the examples in the ScalaCheck book to C# and FsCheck 1](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck)
+* [Port of the examples in the ScalaCheck book to F# and FsCheck 2](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheckInFs)
