@@ -37,3 +37,4 @@ Below is a list of examples that I have converted over to FsCheck 2:
 * https://fsharp.github.io/FsCheck/
 * [Port of the examples in the ScalaCheck book to C# and FsCheck 1](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheck)
 * [Port of the examples in the ScalaCheck book to F# and FsCheck 2](https://github.com/taylorjg/ScalaCheckBookExamplesInFsCheckInFs)
+* [Port of the examples in the ScalaCheck book to Haskell and QuickCheck](https://github.com/taylorjg/ScalaCheckBookExamplesInQuickCheck)
